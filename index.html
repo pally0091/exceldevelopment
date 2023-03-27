@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <!-- tailwindCss -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- UIkit CSS -->
@@ -82,12 +83,22 @@
     <div class="mt-10">
         <h2 class="text-center text-3xl font-bold">Be with Us</h2>
         <div class="flex justify-center mt-8 items-center">
-            <input type="email" class="text-xl border-b-4 border-blue-500 my-5 rounded-md" placeholder="Email Address">
+            <input type="email" class="text-xl border-b-4 p-2 border-blue-500 my-5 rounded-md" placeholder="Email Address">
             <button type="submit" class="bg-sky-400 p-2 mx-2 text-white rounded-md hover:bg-green-400 hover:text-black">Submit</button>
         </div>
-        <div class="my-10 border border-black w-[90%] mx-auto rounded-md bg-lime-300">
-            hellow
+        <div class="my-10 border border-black w-[90%] mx-auto rounded-md bg-lime-300 hover:bg-lime-400">
+            <div>
+                <h2 class="text-center text-3xl font-bold mt-3">Your small participation means a lot to us</h2>
+                <div class="p-5 flex items-center">
+                    <input class="w-1/4 mx-2 rounded-md p-1 focus:shadow-lg focus:shadow-black" type="text" placeholder="Name">
+                    <input class="w-1/4 mx-2 rounded-md p-1 focus:shadow-lg focus:shadow-black" type="tel" placeholder="Phone Number" id="">
+                    <input class="w-1/4 mx-2 rounded-md p-1 focus:shadow-lg focus:shadow-black" type="number" placeholder="1000 ">
+                    <p class="mx-2">BDT</p>
+                    <button class="mx-2 bg-white p-1 text-black rounded-md border-2 border-black hover:border-white hover:bg-blue-500 " type="submit">Donate Now</button>
+                </div>
+            </div>
         </div>
     </div>
+    <!-- projects -->
 </body>
 </html>
